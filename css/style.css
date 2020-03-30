@@ -1,0 +1,75 @@
+.information{
+    display: flex;
+}
+
+input[type="button"], input[type="radio"]{
+    cursor: pointer;
+    margin-top: 10px;
+}
+h1{
+    text-align: center;
+}
+
+form{
+    margin: 0 auto;
+}
+span{
+    margin-top: 10px;
+}
+#newPKButton{
+    margin: 0 auto;
+    display: block;
+}
+.all_info{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.create_pk{
+    display: none;
+}
+
+.headingForEdit{
+    display: none;
+}
+
+.tableHead, .tableBody{
+    border: 1px solid black;
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: repeat(9, 120px);
+}
+.tableBody:nth-child(2n+1){
+    background-color: darkkhaki;
+}
+.tableHeadEl, .tableBodyEl{
+    padding: 10px;
+}
+
+.tableBodyInfo{
+    display: grid;
+    grid-template-columns: 150px 150px;
+}
+
+
+.create_pk{
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    
+}
+.create_pk > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.computerFields, .laptopFields{
+    display: flex;
+    flex-direction: column;
+}
+
+.laptopFields{
+    display: none;
+}

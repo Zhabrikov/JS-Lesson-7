@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CRUD ES6</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1 id="heading">Таблица</h1>
+    <div id="information" class="information">
+        
+        <form>
+           <!--  <div class="text_decoration">
+                <div class="text_name strong"> Имя </div>
+            </div> -->
+        </form>
+    </div>
+
+    <div id="all_info" class="all_info">
+        <h2>Подробная информация</h2>
+        <form>
+          <!--   <div class="detailInfo">
+                <div class="details">
+                    <div class="elem">Имя</div>
+                </div>
+            </div>
+            <input type="button" class="buttons" id="mainMenu2" value="Главное меню"> -->
+        </form>
+    </div>
+
+    <div id="create_pk" class="create_pk">
+        <h2 id="headingForAdd" class="headingForAdd">Добавление информации</h2>
+        <h2 id="headingForEdit" class="headingForEdit">Редактирование информации</h2>
+        <form>
+            <div class="radio_btn">
+                <div><input type="radio" id="radio_ext1" name="radio" value="computer" checked>Компьютер</div>
+                <div><input type="radio" id="radio_ext2" name="radio" value="laptop">Ноутбук</div>
+            </div>
+            <span>Производитель</span><input type="text" id="manufacturer" value="">
+            <span>Процессор</span><input type="text" id="cpu" value="">
+            <span>Тип ОЗУ</span><input type="text" id="ramType" value="">
+            <span>Объём ОЗУ</span><input type="text" id="ramCapacity" value="">
+            <span>Тип накопителя</span><input type="text" id="driveType" value="">
+            <span>Объём накопителя</span><input type="text" id="storageCapacity" value="">
+            <span>Видеокарта</span><input type="text" id="videoCard" value="">
+
+
+            <div id="computerFields" class="computerFields">
+                <span>Блок питания</span><input type="text" id="powerSupply" value="">
+                <span>Чипсет</span><input type="text" id="chipset" value="">
+                <span>Цвет корпуса</span><input type="text" id="bodyColor" value="">
+            </div>
+
+            
+            <div id="laptopFields" class="laptopFields">
+                <span>Диагональ экрана</span><input type="text" id="screenDiagonal" value="">
+                <span>Разрешение экрана</span><input type="text" id="screenResolution" value="">
+                <span>Матрица</span><input type="text" id="matrix" value="">
+                <span>Частота матрицы</span><input type="text" id="matrixFrequency" value="">
+            </div>        
+            
+
+
+
+            <input type="button" id="createPerson" class="buttons" value="Сохранить">
+            <input type="button" id="mainMenu" class="buttons" value="Главная страницы">
+        </form>
+    </div>
+    
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
